@@ -1,0 +1,37 @@
+{
+  "name": "kartfolio",
+  "version": "0.0.0",
+  "authors": [
+      "Tomas Beres <tomiberes@gmail.com>"
+  ],
+  "description": "Kart Koosapoeg portfolio",
+  "license": "MIT",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "jquery": "",
+    "blazy": "",
+    "path-to-regexp": ""
+  },
+  "devDependencies": {
+    "vinyl-source-stream": "",
+    "gulp": "",
+    "gulp-rename": "",
+    "gulp-jshint": "",
+    "gulp-uglify": "",
+    "gulp-less": "",
+    "gulp-watchify": "",
+    "gulp-server-livereload": "",
+    "browserify": "^8.1.0",
+    "stringify ": ""
+  },
+  "browser": {
+  },
+  "browserify": {
+  },
+  "engines": {
+      "node": ">=0.10.0"
+  }
+}

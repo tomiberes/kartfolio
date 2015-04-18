@@ -1,0 +1,50 @@
+.slides {
+  // width: 1024px; // reference default, unused
+  overflow: hidden;
+
+  .slides-wrap {
+    width: 9999px;
+    // height: 683px; // reference default, unused
+    position: relative;
+    -webkit-transition: left 300ms linear;
+    -moz-transition: left 300ms linear;
+    -ms-transition: left 300ms linear;
+    -o-transition: left 300ms linear;
+    transition: left 300ms linear;
+  }
+
+  .slide {
+    float: left;
+    position: relative;
+    // width: 1024px; // reference default, unused
+    // height: 683px; // reference default, unused
+  }
+
+  // Navigation and buttons is custom CSS
+  .slides-nav {
+    // height: 40px; // reference default, unused
+    // width: 100%; // reference default, unused
+    // margin-top: 1.5em; // reference default, unused
+
+    button {
+      // border: none;
+      // display: block;
+      // width: 40px;
+      // height: 40px;
+      // cursor: pointer;
+      // text-indent: -9999em;
+      // background-color: transparent;
+      // background-repeat: no-repeat;
+    }
+
+    button.slides-next {
+      // float: right; // reference default, unused
+      // background-image: url(assets/img/slides_prev.png); //reference default, unused
+    }
+
+    button.slides-prev {
+      // float: left; // reference default, unused
+      // background-image: url(assets/img/slides_next.png); //  reference default, unused
+    }
+  }
+}

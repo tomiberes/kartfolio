@@ -1,0 +1,73 @@
+#landing {
+  // Custom styles for slides
+  .slides {
+    width: 100%;
+    height: 100%;
+
+    .slides-wrap {
+      height: 100%;
+    }
+
+    .slide {
+      height: 100%;
+      text-align:center;
+
+      img {
+        position:absolute;
+        width: 40%;
+        height: auto;
+        // one way how to center is to do negative margin of half of the image size
+        top:50%;
+        left:50%;
+        margin-top: -20%;
+        margin-left: -20%;
+      }
+    }
+
+    .slides-shortcut {
+      width:100%;
+      position: absolute;
+      display: block;
+      bottom: 5%;
+
+      a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #FFF;
+        text-align: center;
+        text-decoration: none;
+        border: 3px solid #FFF;
+        padding: 5px;
+      }
+    }
+
+    .slides-nav {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+
+      button {
+        position: absolute;
+      	background-color: transparent;
+      	background-repeat: no-repeat;
+      	cursor: pointer;
+      	width: 70px;
+      	height: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #FFF;
+        text-decoration: none;
+        border: 3px solid #FFF;
+        padding: 5px;
+      }
+
+      button.slides-next {
+        right: 10px;
+      }
+
+      button.slides-prev {
+        left: 10px;
+      }
+    }
+  }
+}
